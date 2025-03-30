@@ -19,7 +19,6 @@ const startApp = () => {
          </form>
     `
 
-    app.innerHTML = content
-    startApp()
-
+    app.innerHTML = content    
 }
+startApp()
